@@ -1,0 +1,84 @@
+.label-dashboard-1{
+    display: flex;
+    padding-bottom: 100px;
+}
+.label-dashboard2{
+    display: flex;
+}
+
+.box-dashboard1{
+    text-decoration: none;
+    
+    background-color: #0079D1;
+    border: 2px solid black;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+}
+
+.box-dashboard2{
+    background-color: #2DD953;
+    margin-left: 10px;
+    color: white;
+    border: 2px solid black;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.box-dashboard3{
+    background-color: #FF2C2C;
+    margin-left: 10px;
+    
+    border: 2px solid black;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+}
+.box-dashboard4{
+    background-color: #868D93;
+    margin-left: 10px;
+    
+    border: 2px solid black;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+}
+.box-dashboard5{
+    background-color: #0079D1;
+    margin-left: 20px;
+    
+    border: 2px solid black;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+}
+.box-dashboard6{
+    background-color: #2DD953;
+    margin-left: 20px;
+    
+    border: 2px solid black;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+}
+.box-dashboard7{
+    background-color: #FF2C2C;
+    margin-left: 20px;
+    
+    border: 2px solid black;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+}
+h6{
+    color: white;
+}
+h5{
+    
+    padding-top: 20px;
+    padding-left: px;
+    color: white;
+}
+.text-bottom{
+    font-size: 16px;
+    padding-top: 50px;
+}

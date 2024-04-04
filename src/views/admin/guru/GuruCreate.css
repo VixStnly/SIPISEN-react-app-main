@@ -1,0 +1,41 @@
+/* Add this CSS to your stylesheet or in-line style */
+.form-container {
+    border: 2px solid #000000;
+    padding: 20px;
+    max-width: 400px; /* Adjust the maximum width as needed */
+  }
+  
+  .input {
+    width: 100%; /* Set the input fields to full width */
+    padding: 10px; /* Add padding to the input fields */
+    margin-bottom: 15px; /* Increase margin-bottom for space between input fields */
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .back-button {
+    background-color: #ccc;
+    color: #333;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .field {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; /* Change to justify content to flex-start */
+    margin-bottom: 30px;
+  }
+  
+  .label {
+    margin-left: 200px;
+    margin-right: 100px; /* Increase the margin for more space between label and input */
+    width: 80px;
+    text-align: right;
+  }
+  

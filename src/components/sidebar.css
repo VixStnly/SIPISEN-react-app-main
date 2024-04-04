@@ -1,0 +1,93 @@
+/* Add this CSS to your stylesheet */
+
+/* Set a fixed width for the sidebar */
+.text-admin{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.nav-item {
+  color: white;
+  padding-top: 20px;
+  cursor: pointer; /* Menjadikan kursor seperti tautan untuk menunjukkan elemen dapat diklik */
+}
+svg{
+  color: white;
+}
+
+/* Tambahkan class baru untuk menunjukkan elemen yang aktif */
+
+
+/* Hover effect untuk memberikan umpan balik saat kursor berada di atas elemen navigasi */
+.nav-item:hover {
+ padding-left: 10px;
+ padding-bottom: 20px;
+  border-radius: 10px;
+
+  background-color: #000000; /* Warna latar belakang saat elemen dihover */
+ color: black;
+}
+
+
+.sidebar {
+    width: 250px; /* Adjust the width as needed */
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-top: 56px; /* Adjust the padding to accommodate your top navbar height */
+  }
+  
+  /* Add a transition for smoother animation */
+  .sidebar {
+    transition: width 0.3s ease;
+  }
+  
+  /* Push the content to the right when the sidebar is open */
+  .sidebar.toggled {
+    width: 80px; /* Adjust the width when collapsed */
+  }
+  
+  /* Adjust the content to the right when the sidebar is open */
+  .content {
+    margin-left: 270px; /* Adjust the margin to match the sidebar width */
+    transition: margin-left 0.3s ease;
+  }
+  .sidebar-box {
+    position: fixed;
+    background-color: #0079D1;
+    float: left; /* Mengatur float ke kanan */
+    width: 250px; /* Sesuaikan lebar sidebar sesuai kebutuhan Anda */
+    height: 100%; /* Buat tinggi menjadi 100% */
+    margin-left: 0; /* Set margin menjadi 0 */
+    top: 0; /* Atur posisi dari atas menjadi 0 */
+    bottom: 0; /* Atur posisi dari bawah menjadi 0 */
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+
+  /* Adjust the content to the right when the sidebar is collapsed */
+  .sidebar.toggled + .content {
+    margin-left: 80px; /* Adjust the margin to match the collapsed sidebar width */
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    
+    /* Adjust the content for smaller screens */
+    .content {
+      margin-left: 0;
+    }
+  
+    /* Adjust the content for smaller screens when the sidebar is collapsed */
+    .sidebar.toggled + .content {
+      margin-left: 0;
+    }
+  }
+  

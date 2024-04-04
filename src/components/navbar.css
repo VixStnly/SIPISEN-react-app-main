@@ -1,0 +1,66 @@
+/* Add this CSS to your stylesheet */
+
+/* Adjust the dropdown menu style */
+.dashboard-dropdown {
+    min-width: 160px;
+  }
+  
+  /* Center the user name in the dropdown */
+  .dashboard-dropdown .media-body {
+    text-align: center;
+  }
+  
+  /* Add space between the avatar and user name */
+  .dashboard-dropdown .avatar {
+    margin-right: 8px;
+  }
+  
+  /* Style the dropdown items */
+  .dashboard-dropdown .dropdown-item {
+    font-size: 14px; /* Adjust the font size as needed */
+    padding: 8px 16px; /* Adjust the padding as needed */
+  }
+  
+  /* Add space between the icon and text in dropdown items */
+  .dashboard-dropdown .dropdown-icon {
+    margin-right: 8px;
+  }
+  
+  /* Add margin to the top of the dropdown items */
+  .dashboard-dropdown .dropdown-item:not(:first-child) {
+    margin-top: 8px;
+  }
+  
+  /* Change cursor to pointer for better indication */
+  .dropdown-toggle-span,
+  .dropdown-toggle-img {
+    cursor: pointer;
+  }
+  .dashboard-dropdown .dropdown-item .dropdown-icon {
+    width: 16px; /* Adjust the icon width as needed */
+    height: 16px; /* Adjust the icon height as needed */
+    margin-right: 8px; /* Adjust the margin as needed */
+  }
+  /* Add this CSS to your stylesheet */
+
+/* Reduce the size of the profile image */
+.navbar .avatar {
+    width: 40px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    object-fit: cover; /* Maintain aspect ratio and cover container */
+    border-radius: 50%; /* Make it a circle */
+  }
+  
+  /* Style for the user name in the navbar */
+  .navbar .media-body {
+    white-space: nowrap; /* Prevent text overflow */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 20px;
+  }
+  
+  /* Add margin to the media body for spacing */
+  .navbar .media-body {
+    margin-left: 8px; /* Adjust the margin as needed */
+  }
+  
